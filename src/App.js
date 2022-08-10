@@ -24,7 +24,14 @@ import './App.css';
 //import ReactState from './practice/R024_ReactState'
 //import SetState from './practice/R025_SetState'
 //import ForceUpdate from './practice/R026_ForceUpdate'
-import ComponentClass from './practice/R027_ComponentClass'
+//import ComponentClass from './practice/R027_ComponentClass'
+//import PureComponentClass from './practice/R028_PureComponentClass'
+//import ShallowEqual from './practice/R029_ShallowEqual'
+//import FunctionComponent from './practice/R030_FunctionComponent'
+//import ReactHook from './practice/R031_ReactHook'
+//import Fragments from './practice/R032_Fragments'
+import ReturnMap from './practice/R033_ReturnMap'
+
 
 class App extends Component {
     render() {
@@ -33,7 +40,7 @@ class App extends Component {
                <h1>Start React 200!</h1>
                <p>HTML 적용</p>
                <p>CSS 적용</p>
-               <ComponentClass/>
+               <ReturnMap/>
 
             </div>
         );
